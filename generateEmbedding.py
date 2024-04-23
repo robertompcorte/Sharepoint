@@ -1,6 +1,7 @@
 import spacy
 import json
 
+
 # Cargar el modelo de idioma de spaCy (por ejemplo, 'es' para español)
 nlp = spacy.load('es_core_news_sm')
 
