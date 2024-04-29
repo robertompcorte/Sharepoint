@@ -1,0 +1,7 @@
+Organización
+
+1. Eliminar imagenes de los pdf y enviarlos a otra carpeta (deleteimages.py)
+
+2. Pasar el archivo pdf sin imagenes a Markdown (markcomonpag.py)
+
+3. Coger el markdown y limpiarlo para que este mejor  (cleancode.py)
