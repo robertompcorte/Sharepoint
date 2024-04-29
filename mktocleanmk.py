@@ -1,11 +1,22 @@
 import re
 import os
 
+
+# def clean_text(text):
+#     # Define los caracteres especiales que deseas eliminar
+#     special_characters = ['\uf0d8', '\uf0e0','\uf0fc','\u25D8']  # Agrega más caracteres según sea necesario
+
+#     # Reemplaza los caracteres especiales con una cadena vacía
+#     for char in special_characters:
+#         text = text.replace(char, '')
+
+#     return text
+
 def clean_text(text):
-    # Filtrar solo caracteres alfanuméricos, espacios y caracteres especiales permitidos
-    cleaned_text = re.sub(r'[^a-zA-Z0-9\s<>\-!?\¿¡]', '', text)
-    
+    # Filtrar solo caracteres permitidos: letras, números, puntos, comas y letras con tildes
+    cleaned_text = re.sub(r'[^a-zA-Z0-9\s.,áéíóúÁÉÍÓÚñÑ!?¿<>-]', '', text)
     return cleaned_text
+
 
 def merge_duplicate_titles(markdown_text):
     # Dividir el texto en bloques de acuerdo a los títulos
