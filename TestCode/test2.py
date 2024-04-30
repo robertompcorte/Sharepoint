@@ -124,8 +124,8 @@ def process_markdown_files(input_dir, output_dir):
 
 
 # Directorios de entrada y salida
-input_directory = "C:\\Users\\roberto.martin\\Documents\\TestVSC\\DCH\\EliminarFotoPdf\\markdown"
-output_directory = "C:\\Users\\roberto.martin\\Documents\\TestVSC\\DCH\\EliminarFotoPdf\\markdownclean"
+input_directory = "C:\\Users\\roberto.martin\\Documents\\TestVSC\\DCH\\EliminarFotoPdf\\markdownclean"
+output_directory = "C:\\Users\\roberto.martin\\Documents\\TestVSC\\DCH\\EliminarFotoPdf\\markdownclean2"
 
 # Procesar todos los archivos Markdown en el directorio de entrada
 process_markdown_files(input_directory, output_directory)

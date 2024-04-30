@@ -5,3 +5,18 @@ Organización
 2. Pasar el archivo pdf sin imagenes a Markdown (markcomonpag.py)
 
 3. Coger el markdown y limpiarlo para que este mejor  (cleancode.py)
+
+4. Eliminar titulos duplicados, para que solo haya un mismo titulo (eliminartitulosduplicados.py)
+
+5. Eliminar lso numeros que aparcen despues del comentario de la página, porque es redundante(deletesinglenumbers.py)
+    En vez de que aparezca así:
+    <!-- Página 6 -->
+    6
+
+    Aparce así:
+    <!-- Página 6 -->
+
+
+6. Convertir los textos en chunks separadso por tematicas (mkjson.py)
+
+
