@@ -4,6 +4,9 @@ Organización
 
 2. Pasar el archivo pdf sin imagenes a Markdown (markcomonpag.py)
 
+2.1 Otra opción es ejecutar el archivo tamañotextoMK2.py de la carpeta TESTCODE, 
+que lo que hace es hacerlo con el tamño predomiante en el pdf entero en vez de en cada pagina
+
 3. Coger el markdown y limpiarlo para que este mejor  (cleancode.py)
 
 4. Eliminar titulos duplicados, para que solo haya un mismo titulo (eliminartitulosduplicados.py)
