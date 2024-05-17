@@ -7,6 +7,9 @@ Organización
 2.1 Otra opción es ejecutar el archivo tamañotextoMK2.py de la carpeta TESTCODE, 
 que lo que hace es hacerlo con el tamño predomiante en el pdf entero en vez de en cada pagina
 
+2.3 Para primera iteración y unas pruebas, convertir los pdfs a texto y dividirlos cada 2 o 3 páginas para ver que tal funciona
+con aisearch, y que tenga ciertos metadatos para que busque más rápido, como numero de paginaf, nombre del pdf... (pdftotext.py)
+
 3. Coger el markdown y limpiarlo para que este mejor  (cleancode.py)
 
 4. Eliminar titulos duplicados, para que solo haya un mismo titulo (eliminartitulosduplicados.py)
